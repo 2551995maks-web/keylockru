@@ -1,0 +1,144 @@
+{\rtf1\ansi\ansicpg1251\cocoartf2870
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 * \{\
+    box-sizing: border-box\
+\}\
+\
+body \{\
+    margin: 0;\
+    font-family: Arial, Helvetica, sans-serif;\
+    background: #0f172a;\
+    color: #e2e8f0;\
+    line-height: 1.5\
+\}\
+\
+a \{\
+    text-decoration: none;\
+    color: inherit\
+\}\
+\
+.wrap \{\
+    max-width: 1100px;\
+    margin: auto;\
+    padding: 20px\
+\}\
+\
+.btn \{\
+    display: inline-block;\
+    background: #22c55e;\
+    color: #052e16;\
+    padding: 12px 18px;\
+    border-radius: 10px;\
+    font-weight: 700;\
+    transition: .2s\
+\}\
+\
+.btn:hover \{\
+    transform: translateY(-1px);\
+    filter: brightness(1.05)\
+\}\
+\
+header \{\
+    background: linear-gradient(135deg,#0b1023,#111b3d 50%,#1d4ed8);\
+    padding: 70px 0 55px\
+\}\
+\
+h1 \{\
+    font-size: clamp(28px,5vw,48px);\
+    margin: 0 0 10px\
+\}\
+\
+h2 \{\
+    font-size: clamp(22px,3vw,32px);\
+    margin: 0 0 14px;\
+    color: #93c5fd\
+\}\
+\
+.muted \{\
+    color: #cbd5e1\
+\}\
+\
+.grid \{\
+    display: grid;\
+    gap: 16px\
+\}\
+\
+.classes \{\
+    grid-template-columns: repeat(auto-fit,minmax(230px,1fr));\
+    margin-top: 16px\
+\}\
+\
+.card \{\
+    background: #111827;\
+    border: 1px solid #334155;\
+    border-radius: 14px;\
+    padding: 18px;\
+    box-shadow: 0 8px 25px rgba(0,0,0,.25)\
+\}\
+\
+.card h3 \{\
+    margin: 0 0 8px;\
+    color: #60a5fa\
+\}\
+\
+.price \{\
+    font-size: 28px;\
+    font-weight: 800;\
+    color: #86efac\
+\}\
+\
+section \{\
+    padding: 40px 0\
+\}\
+\
+.note \{\
+    background: #0b1228;\
+    border: 1px dashed #3b82f6;\
+    border-radius: 12px;\
+    padding: 14px\
+\}\
+\
+.calc \{\
+    display: flex;\
+    flex-wrap: wrap;\
+    gap: 10px;\
+    align-items: center;\
+    margin-top: 10px\
+\}\
+\
+.calc input,\
+.calc select,\
+form input \{\
+    background: #0b1228;\
+    border: 1px solid #334155;\
+    color: #e2e8f0;\
+    padding: 12px;\
+    border-radius: 10px\
+\}\
+\
+.result \{\
+    font-weight: 700;\
+    color: #fde68a\
+\}\
+\
+.footer \{\
+    padding: 26px 0;\
+    border-top: 1px solid #334155;\
+    color: #94a3b8\
+\}\
+\
+.badge \{\
+    display: inline-block;\
+    background: #1e293b;\
+    border: 1px solid #334155;\
+    color: #93c5fd;\
+    padding: 6px 10px;\
+    border-radius: 999px;\
+    font-size: 12px;\
+    margin-bottom: 12px\
+\}}
